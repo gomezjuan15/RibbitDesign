@@ -1,0 +1,12 @@
+<resources>
+    <style name="AuthFieldContainer" parent="AuthFieldContainerCommon">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="AuthButton" parent="AuthButtonCommon">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+</resources>
