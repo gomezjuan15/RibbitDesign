@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Gaara/AndroidStudioProjects/Ribbit/app/src/main/res/values-large/styles.xml -->
+    <eat-comment/>
+    <style name="AuthButton" parent="AuthButtonCommon">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="AuthFieldContainer" parent="AuthFieldContainerCommon">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+</resources>

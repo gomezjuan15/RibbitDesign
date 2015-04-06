@@ -1,0 +1,27 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   .idea/workspace.xml
+#	modified:   app/src/main/java/com/teamtreehouse/ribbit/SignUpActivity.java
+#	new file:   app/src/main/res/drawable-hdpi/button_divider.png
+#	new file:   app/src/main/res/drawable-mdpi/button_divider.png
+#	new file:   app/src/main/res/drawable-xhdpi/button_divider.png
+#	new file:   app/src/main/res/drawable-xxhdpi/button_divider.png
+#	new file:   app/src/main/res/drawable-xxxhdpi/button_divider.png
+#	new file:   app/src/main/res/layout-large/activity_login.xml
+#	new file:   app/src/main/res/layout-large/activity_sign_up.xml
+#	new file:   app/src/main/res/layout-large/auth_common.xml
+#	modified:   app/src/main/res/layout/activity_login.xml
+#	modified:   app/src/main/res/layout/activity_sign_up.xml
+#	new file:   app/src/main/res/layout/auth_common.xml
+#	new file:   app/src/main/res/values-large/styles.xml
+#	modified:   app/src/main/res/values/strings.xml
+#	new file:   app/src/main/res/values/styles-common.xml
+#	modified:   app/src/main/res/values/styles.xml
+#	modified:   build/intermediates/model_data.bin
+#
+
