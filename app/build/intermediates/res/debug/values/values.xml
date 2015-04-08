@@ -33,6 +33,7 @@
     <dimen name="login_vertical_padding">10dp</dimen>
     <dimen name="message_list_item_vertical_margin">8dp</dimen>
     <dimen name="message_vertical_padding">8dp</dimen>
+    <dimen name="user_grid_spacing">8dp</dimen>
     <!-- From: file:/C:/Users/Gaara/AndroidStudioProjects/Ribbit/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
@@ -41,6 +42,8 @@
     <string name="content_desc_background">Ribbit Frog Background Image</string>
     <string name="content_desc_button_divider">Button divider</string>
     <string name="content_desc_message_icon">Message icon</string>
+    <string name="content_desc_user_checkmark">User checkmark</string>
+    <string name="content_description">User avatar</string>
     <string name="email_hint">Email</string>
     <string name="empty_friends_label">Add friends to begin!</string>
     <string name="empty_inbox_label">No new messages!</string>
@@ -182,6 +185,14 @@
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_ribbit</item>
         <item name="android:dropDownSelector">@drawable/selectable_background_ribbit</item>
     </style>
+    <style name="GridImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
     <style name="PopupMenu.Ribbit" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_ribbit</item>
     </style>
@@ -201,10 +212,14 @@
         <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Ribbit</item>
         <item name="android:actionOverflowButtonStyle">@style/Theme.Ribbit.Overflow</item>
         <item name="android:listViewStyle">@style/Theme.Ribbit.LightPurpleBackground</item>
-        <item name="android:gridViewStyle">@style/Theme.Ribbit.LightPurpleBackground</item>
+        <item name="android:gridViewStyle">@style/Theme.Ribbit.LightPurpleBackground.GridView</item>
     </style>
     <style name="Theme.Ribbit.LightPurpleBackground">
         <item name="android:background">@color/light_purple_background</item>
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="Theme.Ribbit.LightPurpleBackground.GridView">
+        <item name="android:padding">@dimen/user_grid_spacing</item>
     </style>
     <style name="Theme.Ribbit.Overflow" parent="@android:style/Widget.ActionButton.Overflow">
         <item name="android:src">@drawable/ic_menu_overflow</item>

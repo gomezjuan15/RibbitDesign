@@ -27,7 +27,7 @@ import android.widget.Toast;
 
 import com.parse.ParseAnalytics;
 import com.parse.ParseUser;
-import com.teamtreehouse.ribbit.ParseConstants;
+import com.teamtreehouse.ribbit.utils.ParseConstants;
 import com.teamtreehouse.ribbit.R;
 import com.teamtreehouse.ribbit.adapters.SectionsPagerAdapter;
 

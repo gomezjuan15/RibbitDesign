@@ -12,7 +12,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.parse.FindCallback;
 import com.parse.ParseException;
@@ -21,7 +20,7 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.teamtreehouse.ribbit.adapters.MessageAdapter;
-import com.teamtreehouse.ribbit.ParseConstants;
+import com.teamtreehouse.ribbit.utils.ParseConstants;
 import com.teamtreehouse.ribbit.R;
 
 public class InboxFragment extends ListFragment {
